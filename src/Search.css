@@ -1,0 +1,37 @@
+form {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.search-input {
+  background: #f9f7fe;
+  border: none;
+  border-radius: 6px;
+  font-family: "Space Mono", monospace;
+  color: #212121;
+  display: inline-block;
+  width: 100%;
+  font-size: 16px;
+  height: 50px;
+  line-height: 20px;
+  padding: 15px 20px;
+}
+
+.btn {
+  width: 100%;
+  border-radius: 6px;
+  background: #08d9d6;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Space Mono", monospace;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  height: 50px;
+  padding: 15px 0;
+  transition: all 200ms ease-in-out;
+}
+
+.btn:hover {
+  background: #ff2e63;
+}

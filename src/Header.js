@@ -1,6 +1,8 @@
 import React from "react";
 import Search from "./Search";
 
+import "./Header.css";
+
 export default function Header() {
   return (
     <div className="weather">
