@@ -23,13 +23,16 @@ li {
   margin-bottom: 5px;
 }
 
+.icon-today {
+  position: relative;
+  top: 23px;
+}
+
 .temperature {
   font-family: "Montserrat", sans-serif;
   color: #212121;
   font-size: 80px;
-  font-weight: 400;
   font-weight: 700;
-  line-height: 1;
   margin-left: 10px;
 }
 
@@ -38,4 +41,6 @@ li {
   color: #212121;
   font-size: 28px;
   font-weight: 400;
+  position: relative;
+  top: -35px;
 }

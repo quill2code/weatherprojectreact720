@@ -3,7 +3,7 @@ import Search from "./Search";
 
 import "./Header.css";
 
-export default function Header() {
+export default function Header(props) {
   return (
     <div className="weather">
       <h1>
