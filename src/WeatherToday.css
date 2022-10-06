@@ -3,19 +3,19 @@
   margin-bottom: 40px;
 }
 
-.weather-today .city {
+.city {
   font-family: "Montserrat", sans-serif;
   font-size: 45px;
   font-weight: 700;
   color: #ff2e63;
 }
 
-.weather-today ul {
+ul {
   margin: 0;
   padding: 0;
 }
 
-.weather-today li {
+li {
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
@@ -23,11 +23,7 @@
   margin-bottom: 5px;
 }
 
-.weather-right {
-  margin-top: 0;
-}
-
-.weather-today .temperature {
+.temperature {
   font-family: "Montserrat", sans-serif;
   color: #212121;
   font-size: 80px;
@@ -37,7 +33,7 @@
   margin-left: 10px;
 }
 
-.weather-today .unit {
+.unit {
   font-family: "Space Mono", monospace;
   color: #212121;
   font-size: 28px;
