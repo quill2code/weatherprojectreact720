@@ -50,7 +50,7 @@ export default function WeatherToday(props) {
 
           <div className="weather-right col-xs-12 col-sm-6">
             <img
-              src="http://openweathermap.org/img/wn/10d@2x.png"
+              src={`http://openweathermap.org/img/wn/${weatherData.icon}@2x.png`}
               alt="Weather icon"
               className="icon-today"
             />
