@@ -24,8 +24,7 @@ li {
 }
 
 .icon-today {
-  position: relative;
-  top: 23px;
+  height: 100%;
 }
 
 .temperature {

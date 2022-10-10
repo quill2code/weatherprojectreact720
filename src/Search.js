@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import WeatherToday from "./WeatherToday";
+import WeatherForecast from "./WeatherForecast";
 import "./Search.css";
 
 export default function Search(props) {
@@ -41,7 +42,7 @@ export default function Search(props) {
       <div>
         <form onSubmit={handleSubmit}>
           <div className="row">
-            <div className="col-xs-12 col-sm-7">
+            <div className="col-sm-9">
               <input
                 type="search"
                 placeholder="Search for a City"
@@ -49,12 +50,13 @@ export default function Search(props) {
                 onChange={handleCityChange}
               />
             </div>
-            <div className="col-xs-12 col-sm-5">
+            <div className="col-sm-3">
               <input type="submit" className="btn" value="Search" />
             </div>
           </div>
         </form>
         <WeatherToday data={weatherData} />
+        <WeatherForecast coords={weatherData.coordinates} />
       </div>
     );
   } else {

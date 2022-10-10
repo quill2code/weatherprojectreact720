@@ -14,14 +14,23 @@ export default function Footer() {
         >
           Joana Parente
         </a>{" "}
-        and is{" "}
+        it's{" "}
         <a
           href="https://github.com/jrparente/shecodes-react-weather-app"
           target="_blank"
           rel="noopener noreferrer"
         >
           open-sourced on GitHub
+        </a>{" "}
+        and{" "}
+        <a
+          href="https://shecodes-react-weather-app-jp.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          hosted on Netlify
         </a>
+        .
       </p>
     </footer>
   );
