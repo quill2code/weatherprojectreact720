@@ -45,7 +45,7 @@ export default function Search(props) {
               <input
                 type="search"
                 placeholder="Search for a City"
-                class="search-input"
+                className="search-input"
                 onChange={handleCityChange}
               />
             </div>

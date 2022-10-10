@@ -39,8 +39,13 @@ li {
 .unit {
   font-family: "Space Mono", monospace;
   color: #212121;
-  font-size: 28px;
+  font-size: 22px;
   font-weight: 400;
   position: relative;
   top: -35px;
+}
+
+.unit a {
+  text-decoration: none;
+  color: #ff2e63;
 }

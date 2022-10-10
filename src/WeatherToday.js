@@ -2,6 +2,7 @@ import React from "react";
 
 import "./WeatherToday.css";
 import FormattedDate from "./FormattedDate";
+import WeatherTemp from "./WeatherTemp"
 
 export default function WeatherToday(props) {
   return (
@@ -35,8 +36,8 @@ export default function WeatherToday(props) {
             alt="Weather icon"
             className="icon-today"
           />
-          <span className="temperature">{props.data.temperature}</span>
-          <span className="unit">°C</span>
+          <WeatherTemp celsius={props.data.temperature} />
+          
         </div>
       </div>
     </div>
