@@ -20,6 +20,6 @@ During the Workshop, the tutor goes through the process of creating a Weather Ap
 - API intergration
 - Bootstrap
 
-### Roadmap
+### Continued development
 - Add dark mode theme, and have it change automatically when the sun sets and rises in the current location.
 - Celcius to Fahrenheit conversion for the 5 day forecast, not just the current temperature.
